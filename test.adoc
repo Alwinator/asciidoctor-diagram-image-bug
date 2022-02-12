@@ -1,0 +1,8 @@
+== Test 123
+
+[blockdiag, format=png]
+----
+include::test.diag[]
+----
+
+blockdiag::test.diag[format=png]

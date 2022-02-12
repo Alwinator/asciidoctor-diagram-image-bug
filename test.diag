@@ -1,0 +1,4 @@
+blockdiag {
+   A [label = "", background = "asciidoctor.png"];
+   A -> B;
+}
