@@ -1,4 +1,6 @@
 # Asciidoctor Diagram Bug
+A bug reproduction for this issue: https://github.com/asciidoctor/asciidoctor-diagram/issues/378
+
 ## Build
 ```
 docker build -t asciidoctor-diagram-bug .
@@ -8,4 +10,4 @@ docker build -t asciidoctor-diagram-bug .
 ```
 docker run --rm -v "$(pwd)/writing:/work/writing" -v "$(pwd)/build:/work/build" asciidoctor-diagram-bug
 ```
-You can find a output.pdf file in the build folder
+You can find an output.pdf file in the build folder
