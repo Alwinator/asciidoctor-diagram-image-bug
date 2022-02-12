@@ -1,4 +1,5 @@
 build
+!build/.keep
 output.pdf
 diag*
 .asciidoctor

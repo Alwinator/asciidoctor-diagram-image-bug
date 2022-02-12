@@ -4,4 +4,5 @@ RUN mkdir -p /work
 RUN chown docker-user /work
 USER docker-user
 WORKDIR /work
-CMD ["/bin/bash", "/work/asciidoc-to-pdf.sh"]
+COPY asciidoc-to-pdf-bug.sh /work/asciidoc-to-pdf-bug.sh
+CMD ["/bin/bash", "/work/asciidoc-to-pdf-bug.sh"]

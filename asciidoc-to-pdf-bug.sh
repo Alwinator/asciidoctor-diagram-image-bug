@@ -4,5 +4,5 @@ set -e # Fail if command fails
 
 asciidoctor-pdf \
 -r asciidoctor-diagram \
--o output.pdf \
-test.adoc --trace
+-o build/output.pdf \
+writing/test.adoc --trace
